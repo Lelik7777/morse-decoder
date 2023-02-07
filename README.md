@@ -36,3 +36,6 @@ Write your solution in `src/index.js`
 ### Notes
 1. We recommend you to use nodejs of version 14 or lower. If you using any of features that does not supported by node v10, score won't be submitted.
 2. Please be sure that each of your test in limit of 30sec.
+
+
+я разобралась как делать. сначала надо двоичный код разбыть буквы 1 буква = 10 символов. потом надо убрать лишные нолики, они находятся слева и заканчиваются как только встречается единичка. потом нужно подставить '.' и '-' 10 = '.' 11 = '-'. потом уже отсюда сформируется морзе одной буквы и потом перебором сопоставить морзе с буквами
